@@ -1,0 +1,92 @@
+.flex { 
+    background-color: black;
+    padding: 10px;
+    height: 100dvh;
+
+    display: flex;
+     justify-content: space-evenly; /* alinea elementos en el 
+    eje principal  */
+     
+    flex-direction: column;
+    align-items: center; 
+    /* alinea elementos en los ejes secundarios */
+    
+
+}
+.cuadrado {
+    background-color: rgb(0, 255, 76);
+    margin: 60px;
+    text-align: center;
+    padding: 1em;
+    width: 500px;
+    flex-grow: 1;
+    flex-shrink:  0;
+    flex-basis: 300px;
+
+
+    flex: 1 0 auto;
+    background-color: red;
+
+
+    flex-basis: 50px;
+    /* height: 100px;
+    width: 100px; */
+    font-family: arial sans-serif;
+    font-size: 20px;
+    /* line-height: 100px; */
+
+    border-radius:10px ;
+    box-shadow: 0 0 15px -2px  rgb(207, 14, 14);
+}
+.chau {
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+}
+#hola {
+    margin: 20px;
+    background-color: steelblue;
+    color: white;
+}
+.contenedor {
+    background-color: yellow;
+    text-align: justify;
+    
+}
+.hijoContenedor {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.hijoContenedor :last-child {/*ulimo elemento de una serie */
+    background-color: darkgray;
+    text-align: right;
+    text-transform: uppercase;
+}
+.hijoContenedor:first-child{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.hijoContenedor:nth-child(5){
+    background-color: rgb(233, 100, 47);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+table {
+    width: 100%;
+}
+.filaTabla{
+    font-size: 16px;
+}
+.filaTabla:nth-child(even){
+    background-color: lightgray;
+}
+.filaTabla:nth-child(odd){
+    background-color: white;
+}
+/* .cuadrado{
+    background-color: blue;
+} */
